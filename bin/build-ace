@@ -1,0 +1,1 @@
+node Makefile.dryice.js full --target ace-builds
