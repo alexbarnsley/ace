@@ -33,7 +33,7 @@ background: rgb(198, 219, 174)\
 }\
 .ace-katzenmilch .ace_marker-layer .ace_bracket {\
 margin: -1px 0 0 -1px;\
-border: 1px solid #000000\
+border: 1px solid rgba(0, 0, 0, 0.33);\
 }\
 .ace-katzenmilch .ace_marker-layer .ace_active-line {\
 background: rgb(232, 242, 254)\

@@ -169,7 +169,7 @@ snippet forr\n\
 \n\
 #modules\n\
 snippet def\n\
-	ace.define(function(require, exports, module) {\n\
+	define(function(require, exports, module) {\n\
 	\"use strict\";\n\
 	var ${1/.*\\///} = require(\"${1}\");\n\
 	\n\
