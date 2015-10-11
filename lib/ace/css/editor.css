@@ -146,6 +146,8 @@
     -moz-user-select: text;
     -webkit-user-select: text;
     user-select: text;
+    /*with `pre-line` chrome inserts &nbsp; instead of space*/
+    white-space: pre!important;
 }
 
 .ace_text-input.ace_composition {
@@ -199,7 +201,9 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    border-left: 2px solid
+    border-left: 2px solid;
+    /* workaround for smooth cursor repaintng whole screen in chrome */
+    transform: translatez(0);
 }
 
 .ace_slim-cursors .ace_cursor {
